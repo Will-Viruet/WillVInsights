@@ -44,6 +44,9 @@ Hi, I'm Will
   </a>
 </p>
 
-[![Download Resume](https://img.shields.io/badge/Download-Resume-blue)](https://github.com/WillVInsights/resume/raw/main/Resume%20July%20%20(1).pdf)
-
+<p align="left">
+  <a href="https://github.com/WillVInsights/resume/raw/main/Resume%20July%20%20(1).pdf" download>
+    <img src="https://img.icons8.com/plasticine/100/000000/resume.png" alt="Download Resume" width="40" height="40"/>
+  </a>
+</p>
 
