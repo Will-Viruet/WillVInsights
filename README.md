@@ -43,3 +43,7 @@ Hi, I'm Will
     <img src="https://www.vectorlogo.zone/logos/tableau/tableau-icon.svg" alt="tableau" width="40" height="40"/>
   </a>
 </p>
+
+[![Download Resume](https://img.shields.io/badge/Download-Resume-blue)](https://github.com/WillVInsights/resume/raw/main/Resume%20July%20%20(1).pdf)
+
+
