@@ -6,18 +6,29 @@
     <title>Will Viruet's Portfolio</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
             background-color: #f5f5f5; /* Light gray background for the whole page */
             color: #333; /* Darker text for better contrast */
             font-size: 16px; /* Base font size for better readability */
+            line-height: 1.6; /* Improved line height for readability */
         }
         header {
             text-align: center;
             padding: 30px; /* Increased padding for a more spacious feel */
-            background-color: #e0e0e0; /* Lighter gray for header background */
+            background-color: #4CAF50; /* Green for header background */
+            color: white; /* White text for contrast */
             border-radius: 8px; /* Rounded corners for the header */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+            position: relative;
+        }
+        header img {
+            width: 150px;
+            border-radius: 75px; /* Circle image */
+            border: 4px solid white; /* White border around the image */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Shadow for image */
+            margin-bottom: 20px; /* Space below the image */
         }
         section {
             margin: 20px auto;
@@ -26,32 +37,57 @@
             border: 1px solid #ccc; /* Light gray border */
             border-radius: 8px; /* Rounded corners for sections */
             max-width: 800px; /* Max width for sections */
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Enhanced shadow for depth */
+            transition: transform 0.3s, box-shadow 0.3s; /* Smooth transitions */
+        }
+        section:hover {
+            transform: translateY(-5px); /* Lift effect on hover */
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Darker shadow on hover */
         }
         h1 {
-            color: #333; /* Dark header text for readability */
             margin: 0; /* Remove default margin */
+            font-size: 2em; /* Larger font size for header */
         }
         .section-title {
             font-size: 1.6em; /* Slightly larger section title */
             margin-bottom: 10px;
-            color: #4CAF50; /* Keep section titles in green for consistency */
+            color: #4CAF50; /* Consistent section title color */
+            border-bottom: 2px solid #4CAF50; /* Underline effect */
+            padding-bottom: 5px; /* Space below the title */
         }
         .contact-info {
             font-size: 1.1em;
         }
-        .languages-tools img {
-            width: 50px;
-            height: 50px;
-            margin-right: 10px;
+        a {
+            color: #4CAF50; /* Link color */
+            text-decoration: none; /* Remove underline */
+            transition: color 0.3s; /* Smooth color transition */
+        }
+        a:hover {
+            color: #333; /* Darker color on hover */
+            text-decoration: underline; /* Underline on hover */
+        }
+        footer {
+            text-align: center;
+            margin: 20px 0;
+            font-size: 0.9em; /* Smaller font for footer */
+            color: #777; /* Gray color for footer text */
+        }
+        .social-icons img {
+            width: 30px;
+            height: 30px;
+            margin: 0 5px;
+            transition: transform 0.3s; /* Smooth scale effect */
+        }
+        .social-icons img:hover {
+            transform: scale(1.1); /* Scale up on hover */
         }
     </style>
 </head>
 <body>
 
     <header>
-        <!-- Ensure this is the correct image URL -->
-        <img src="https://raw.githubusercontent.com/WillVInsights/WillVInsights/main/116690741.png" alt="Will Viruet's Headshot" style="width: 150px; border-radius: 75px;" />
+        <img src="https://raw.githubusercontent.com/WillVInsights/WillVInsights/main/116690741.png" alt="Will Viruet's Headshot" />
         <h1>Hi 👋, I'm Will Viruet</h1>
         <p>A passionate data analyst from SC, United States</p>
     </header>
@@ -72,4 +108,24 @@
     </section>
 
     <section>
-        <div class="section-title">Connect with
+        <div class="section-title">Connect with Me</div>
+        <p>Feel free to connect with me on:</p>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/yourprofile" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/01/LinkedIn_Logo.svg" alt="LinkedIn">
+            </a>
+            <a href="https://twitter.com/yourprofile" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/en/6/60/Twitter_bird_logo_2012.svg" alt="Twitter">
+            </a>
+            <a href="https://github.com/yourprofile" target="_blank">
+                <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub">
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Will Viruet. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
