@@ -30,6 +30,31 @@
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Shadow for image */
             margin-bottom: 20px; /* Space below the image */
         }
+        nav {
+            background-color: #333; /* Dark background for navigation */
+            padding: 10px; /* Padding around the navigation items */
+            border-radius: 8px; /* Rounded corners for the nav */
+            margin: 20px auto; /* Center the nav with margin */
+            max-width: 800px; /* Same max-width as sections */
+        }
+        nav ul {
+            list-style-type: none; /* Remove bullet points */
+            padding: 0; /* Remove padding */
+            text-align: center; /* Center the list items */
+        }
+        nav ul li {
+            display: inline; /* Display list items inline */
+            margin: 0 15px; /* Margin between items */
+        }
+        nav a {
+            color: white; /* White text for links */
+            text-decoration: none; /* Remove underline */
+            font-weight: bold; /* Bold text for links */
+            transition: color 0.3s; /* Smooth color transition */
+        }
+        nav a:hover {
+            color: #4CAF50; /* Change color on hover */
+        }
         section {
             margin: 20px auto;
             padding: 20px;
@@ -92,24 +117,39 @@
         <p>A passionate data analyst from SC, United States</p>
     </header>
 
-    <section>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
         <div class="section-title">What I'm Working On</div>
         <p>🌱 I’m currently learning how to conduct time-series analysis in Python and prepare time-series data for forecasting.</p>
     </section>
 
-    <section>
+    <section id="about">
+        <div class="section-title">About Me</div>
+        <p>👤 I am a data analyst with a keen interest in turning data into actionable insights. My background includes experience in data visualization, statistical analysis, and machine learning.</p>
+    </section>
+
+    <section id="skills">
+        <div class="section-title">Skills</div>
+        <p>🛠️ I am proficient in various programming languages and tools including Python, R, SQL, Tableau, and Excel.</p>
+    </section>
+
+    <section id="projects">
+        <div class="section-title">Projects</div>
+        <p>📊 I have worked on several projects, including data analysis for a marketing campaign, forecasting sales using time-series analysis, and creating interactive dashboards.</p>
+    </section>
+
+    <section id="contact">
         <div class="section-title">How to Reach Me</div>
         <p class="contact-info">📫 Email: <a href="mailto:willv.careers@gmail.com">willv.careers@gmail.com</a></p>
-    </section>
-
-    <section>
-        <div class="section-title">Fun Fact</div>
-        <p>⚡ I once learned to juggle as a stress-relief hobby during college, and I can still manage three balls quite well!</p>
-    </section>
-
-    <section>
-        <div class="section-title">Connect with Me</div>
-        <p>Feel free to connect with me on:</p>
         <div class="social-icons">
             <a href="https://www.linkedin.com/in/yourprofile" target="_blank">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/0/01/LinkedIn_Logo.svg" alt="LinkedIn">
